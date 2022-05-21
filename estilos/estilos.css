@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+#header {
+    background-color: rgb(124, 122, 122);
+    height: 20%;
+    
+}
+
+#header-logo {
+    height: 80px;
+    display: inline-block;
+    margin-top: 1.5em;
+    
+}
+
+#nav__link {
+    display: inline-block;
+}
+
+.header__menu{
+    color: rgb(255, 255, 255);
+    font-size: 4vh;
+    display: inline-block;
+}
+
+#section1 {
+    height: 40vh;
+    background-color: rgb(56, 97, 230);
+}
+
+.section1__p {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#section2 {
+    height: 30vh;
+    background-color: rgb(176, 176, 255);
+}
+
+footer {
+    background-color: rgba(43, 92, 226, 0.24);
+    height: 10vh;
+}
+
+.footer__media-conteiner {
+    display: inline-block;
+}
+
+.footer__social-item {
+    display: inline-block;
+}
