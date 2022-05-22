@@ -9,48 +9,100 @@ body{
 }
 
 #header {
-    background-color: rgb(124, 122, 122);
-    height: 20%;
+    background-image: linear-gradient(to top, #f6f6f6, #dad7ec, #bdb9e3, #9f9bd9, #7f7fcf);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
 #header-logo {
     height: 80px;
-    display: inline-block;
-    margin-top: 1.5em;
-    
+    padding: 8px;
 }
 
-#nav__link {
-    display: inline-block;
+#header__nav ul {
+    display:flex;
+    justify-items: center;
+    list-style: none;
+    gap: 20px;
+}
+ 
+
+nav#header__nav {
+   padding-right: 20px;
 }
 
-.header__menu{
+.nav__item{
     color: rgb(255, 255, 255);
-    font-size: 4vh;
-    display: inline-block;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 500;
+           
 }
+
+.nav__item a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__item a:hover{
+   
+    color: rgb(80, 22, 187);
+}
+
+/* inicio */
 
 #section1 {
     height: 40vh;
-    background-color: rgb(56, 97, 230);
+    background-image: linear-gradient(to bottom, #f6f6f6, #dad7ec, #bdb9e3, #9f9bd9, #7f7fcf);
+    
 }
 
 .section1__p {
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 50px 50px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: sans-serif;
     
 }
 
 #section2 {
     height: 30vh;
-    background-color: rgb(176, 176, 255);
+    background-image: linear-gradient(to top, #f6f6f6, #dad7ec, #bdb9e3, #9f9bd9, #7f7fcf);
 }
 
+/* Pagina Seguridad*/
+
+.seguridad__section {
+    display: flex;
+    background-image: radial-gradient(circle, #f6f6f6, #dad7ec, #bdb9e3, #9f9bd9, #7f7fcf);
+}
+
+.seguridad__section img {
+    flex:1 1 0%;
+    
+}
+
+.seguridad__section .seguridad__texto {
+    flex:1 1 0%;
+    padding: 16px;
+
+}
+
+
+
+
+
+
+/* footer */
+
 footer {
-    background-color: rgba(43, 92, 226, 0.24);
-    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 16px;
+    background-image: linear-gradient(to bottom, #f6f6f6, #dad7ec, #bdb9e3, #9f9bd9, #7f7fcf);
 }
 
 .footer__media-conteiner {
